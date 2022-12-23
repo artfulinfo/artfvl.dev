@@ -4,14 +4,15 @@ import Navigation from "../../components/Navigation.astro";
 import Introduction from "../../components/Introduction.astro";
 ---
 
-<Layout title="artfvl ~ about">
-  <Navigation />
+<Layout title="artfvl ~ tl;dr">
   <main>
     <div class="mx-36 max-w-4xl shrink my-12">
+      <Navigation />
       <Introduction />
       <p class="text-xs text-slate-700">
-        [text overload?! click <a class="underline" href="/tldr">here</a> for a condensed
-        summary of the below.]
+        [after for more detail? click <a class="underline" href="/about++"
+          >here</a
+        > for a more descriptive version of the below.]
       </p>
       <h2 class="font-bold font-mono text-2xl mt-3">Hobby projects</h2>
       <ul class="list-disc list-inside font-mono text-lg">
@@ -20,35 +21,24 @@ import Introduction from "../../components/Introduction.astro";
             class="underline font-bold text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-500 to-cyan-500 hover:text-white hover:bg-clip-content"
             href="https://splitdash.app/"
             target="_blank">SplitDash.app</a
-          > - A desktop web app for speedrunners looking to share their achievements
-          and progression on social media/video thumbnails in the form of a sleek
-          and eye-catching summary card exported to .png 🧰 <span
-            class="font-bold"
-            >[Python (Django), Javascript/Typescript, React, D3, SCSS]</span
-          >
+          > - A web app for speedrunners to create social-media-ready dashboards
         </li>
         <li>
           <a
             class="underline font-bold text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-500 to-cyan-500 hover:text-white hover:bg-clip-content"
             href="https://artfvl.dev/"
             target="_blank">Artfvl.dev</a
-          > - My personal website, designed from scratch 🧰 <span
-            class="font-bold">[Javascript/Typescript, Astro, Tailwind CSS]</span
-          >
+          > - My personal website
         </li>
         <li>
           <a
             class="underline font-bold text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-500 to-cyan-500 hover:text-white hover:bg-clip-content"
             href="https://github.com/artfulinfo/hpsr-pb-bot"
             target="_blank">PB Twitch Bot API</a
-          > - A simple API enabling Twitch chatters to lookup personal best times
-          of speedrunners on <a
+          > - A simple API for Twitch chat bots to integrate with <a
             class="underline"
             href="https://speedrun.com"
             target="_blank">speedrun.com</a
-          > directly from Twitch chat. Easy setup for any streamer in the community
-          with minimal configuration 🧰 <span class="font-bold"
-            >[Python (Flask)]</span
           >
         </li>
         <li>
@@ -61,56 +51,22 @@ import Introduction from "../../components/Introduction.astro";
           >
         </li>
       </ul>
-      <br />
-      <h2 class="font-bold font-mono text-2xl">About me</h2>
-      <ul class="list-none list-inside font-mono text-lg">
-        <li>
-          I've been working in and around back-end/full-stack development since
-          2018, originally in Python, and in more recent years expanding into
-          JavaScript/TypeScript, React, and (to a lesser extent) Go. I've always
-          enjoyed the art of problem solving in an efficient and repeatable way
-          using the power of code and love keeping up to date with new
-          frameworks, libraries and approaches.
-        </li>
-        <br />
-        <li>
-          I've spent considerable time building solutions using cloud providers,
-          namely 🧰 <span class="font-bold">[AWS, GCP]</span> and I'm certified as
-          an Associate Cloud Engineer for Google Cloud. My experience includes: building
-          data pipelines/workflow automation; setting up serverless functions and
-          containers; user administration; object storage; SQL database administration
-          and ETL; CI/CD.
-        </li>
-        <br />
-        <li>
-          I enjoy the design aspect of development, with an emphasis on a
-          simple, consistent design language which is equal parts intuitive to
-          use and visually engaging. Where possible, I create my own simple
-          graphics/mock-ups in 🧰 <span class="font-bold">
-            [Affinity Designer]</span
-          >
-          to add character/originality to my programs, such as the SplitDash logo
-          and all the dashboard template designs in the app.
-        </li>
-        <br />
-        <li>
-          As you may've deduced from my hobby projects, I speedrun old games
-          when I find the time, occasionally streaming my runs on Twitch or
-          creating related content in the form of YouTube videos. I've picked up
-          some fun, albeit maybe tangential skills in video recording 🧰 <span
-            class="font-bold">[OBS]</span
-          >
-          and editing 🧰 <span class="font-bold">[DaVinci Resolve]</span>, and
-          livestream coordination skills, such as community engagement, overlay
-          composition, layouts etc.
-        </li>
+      <h2 class="font-bold font-mono text-2xl mt-3">Credentials</h2>
+      <ul class="list-disc list-inside font-mono text-lg">
+        <li>BSc Degree in Technology (First Class)</li>
+        <li>Associate Cloud Engineer (Google Cloud)</li>
+        <li>6+ years experience in the consulting industry..</li>
+        <li>4+ of which spent programming in various capacities</li>
       </ul>
-      <br />
-      <p class="font-mono text-slate-700">
-        🧰 == key software I have experience with
-      </p>
+      <h2 class="font-bold font-mono text-2xl mt-3">Competencies</h2>
+      <ul class="list-disc list-inside font-mono text-lg">
+        <li>Python (Django, Pandas)</li>
+        <li>Typescript/Javascript (React, D3.js)</li>
+        <li>SQL(PostgreSQL)</li>
+        <li>GCP/AWS (serverless, ETL, workflow automation, user admin)</li>
+        <li>Docker</li>
+        <li>Git</li>
+      </ul>
     </div>
   </main>
 </Layout>
-
-<style></style>
